@@ -1,0 +1,11 @@
+escreva("digite quantos números serão feitos na média: ")
+leia(n)
+C <- 1
+m <- 0
+enquanto C <= n faca
+	escreva("Digite o ", C , " número")
+	leia(num)
+	m <- m + num
+	C <- C + 1
+fimenquanto
+escreva("a média dos números é " , m/n)
