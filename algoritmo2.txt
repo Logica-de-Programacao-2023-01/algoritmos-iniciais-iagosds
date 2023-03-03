@@ -1,0 +1,19 @@
+r: caractere
+ti, tf: inteiro
+
+
+
+escreva("Escolha qual temperatura deseja converter[C/F]")
+leia(r)
+escolha
+       caso C faca
+	   escreva("Digite a temperatura em celsius: ")
+	   leia(ti)
+           tf <- (ti*1.8) + 32
+	   escreva("a temperatura é de " , tf , "farenheits")
+       caso F faca
+	   escreva("Digite a temperatura em farenheiits: ")
+	   leia(tf)
+	   ti <- (tf/1.8) - 32
+	   escreva("A temperatura é de " , ti , "º")
+fimescolha
